@@ -185,11 +185,6 @@ with st.container():
                    )
 
 
-
-
-
-
-
 with st.container():
     col1, col2 = st.columns(2)
     
@@ -207,7 +202,7 @@ with st.container():
                     y="votes",
                     text="votes",
                     text_auto=".2f",
-                    title="Média por País",
+                    title="Média das avaliações por País",
                     labels={"country": "Paises", "votes": "Média"}
                             ), use_container_width=True
                        )
